@@ -41,15 +41,15 @@
           <span class="text-xl font-bold text-gray-900">Gjimnazi Qemal Stafa</span>
         </div>
 
-        <!-- Desktop Menu -->
-        <div class="hidden md:flex space-x-8">
-          <a href="#home" class="text-gray-700 hover:text-blue-600 transition-colors">Kreu</a>
-          <a href="#history" class="text-gray-700 hover:text-blue-600 transition-colors">Historia</a>
-          <a href="#personalities" class="text-gray-700 hover:text-blue-600 transition-colors">Personalitete</a>
-          <a href="#facilities" class="text-gray-700 hover:text-blue-600 transition-colors">Ambientet</a>
-          <a href="#contact" class="text-gray-700 hover:text-blue-600 transition-colors">Kontakt</a>
-        <a href="aktivitetet.html" class="text-gray-700 hover:text-blue-600 transition-colors">Më shumë rreth nesh</a>
-		</div>
+       <!-- Desktop Menu -->
+<div class="hidden md:flex space-x-8">
+  <a href="#home" class="text-gray-700 hover:text-blue-600 transform hover:scale-110 transition-all duration-200">Kreu</a>
+  <a href="#history" class="text-gray-700 hover:text-blue-600 transform hover:scale-110 transition-all duration-200">Historia</a>
+  <a href="#personalities" class="text-gray-700 hover:text-blue-600 transform hover:scale-110 transition-all duration-200">Personalitete</a>
+  <a href="#facilities" class="text-gray-700 hover:text-blue-600 transform hover:scale-110 transition-all duration-200">Ambientet</a>
+  <a href="#contact" class="text-gray-700 hover:text-blue-600 transform hover:scale-110 transition-all duration-200">Kontakt</a>
+  <a href="aktivitetet.html" class="text-gray-700 hover:text-blue-600 transform hover:scale-110 transition-all duration-200">Më shumë rreth nesh</a>
+</div>
 
         <!-- Mobile Menu Button -->
         <button id="mobile-menu-btn" class="md:hidden text-gray-700">
@@ -116,14 +116,15 @@
 </div>
           </div>
         </div>
-        <div class="relative">
-          <div class="absolute -inset-4 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl opacity-20 blur-2xl"></div>
-          <img
-            src="qemali.png"
-            alt="Nxënës duke studiuar"
-            class="relative rounded-2xl shadow-2xl w-full h-[400px] object-cover"
-          />
-        </div>
+        <div class="relative group">
+  <div class="absolute -inset-4 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl opacity-20 blur-2xl transition duration-300 group-hover:opacity-30"></div>
+
+  <img
+    src="qemali.png"
+    alt="Shkolla Foto"
+    class="relative rounded-2xl shadow-2xl w-full h-[400px] object-cover transition-transform duration-300 ease-out group-hover:scale-105 group-hover:shadow-[0_10px_25px_rgba(0,0,0,0.3)]"
+  />
+</div>
       </div>
     </div>
   </section>
@@ -140,7 +141,8 @@
   <!-- Slideshow container -->
   <div class="relative overflow-hidden rounded-2xl shadow-xl h-[400px]">
     <!-- Images -->
-    <div class="slides">
+    
+<div class="slides">
       <img src="Historia\historia1.jpg" alt="Foto 1" class="slide w-full h-[400px] object-cover hidden">
       <img src="Historia\historia2.jpg" alt="Foto 2" class="slide w-full h-[400px] object-cover hidden">
       <img src="Historia\historia3.jpg" alt="Foto 3" class="slide w-full h-[400px] object-cover hidden">
@@ -467,8 +469,11 @@
                 </svg>
               </div>
               <div>
-                <p class="text-sm text-blue-100">Telefon</p>
-                <p class="font-semibold">Sekretaria: +355 4 2xxx xxx</p>
+                <a href="tel:" class="block transform transition-all duration-300 hover:scale-105 hover:shadow-lg hover:bg-white/5 rounded-lg p-2">
+  <p class="text-sm text-blue-100">Telefon</p>
+  <p class="font-semibold text-white">Sekretaria: +</p>
+</a>
+
               </div>
             </div>
 
@@ -479,24 +484,29 @@
                 </svg>
               </div>
               <div>
-              <a href="mailto:qemalstafa.help@gmail.com?subject=Kerkese%20per%20ndihme&body=Pershendetje,%0ADua%20te%20pyes%20per..." class="block">
-    <p class="text-sm text-blue-100">Email</p>
-    <p class="font-semibold">qemalstafa.help@gmail.com</p>
+              <a 
+  href="mailto:qemalstafa.help@gmail.com?subject=Kerkese%20per%20ndihme&body=Pershendetje,%0ADua%20te%20pyes%20per..." 
+  class="block transform transition-all duration-300 hover:scale-105 hover:shadow-lg hover:bg-white/5 rounded-lg p-2"
+>
+  <p class="text-sm text-blue-100">Email</p>
+  <p class="font-semibold text-white">qemalstafa.help@gmail.com</p>
+</a>
   </div>
 </a>
 			  </div>
             </div>
 
-            <div class="pt-6 border-t border-white/20">
-              <h4 class="font-semibold mb-3">Orari i Mësimit</h4>
-              <div class="space-y-2 text-blue-100">
+            <div class="mt-6 pt-4 border-t border-white/20">
+  <h4 class="font-semibold mb-3">Orari i Mësimit</h4>
+  <div class="space-y-2 text-blue-100">
                 <p>E Hënë - E Premte: 08:00 - 14:00</p>
                 <p>E Shtunë - E Diel: Mbyllur</p>
               </div>
             </div>
 
-            <div class="pt-6 border-t border-white/20">
-              <h4 class="font-semibold mb-3">Media Sociale</h4>
+            <div class="mt-6 pt-4 border-t border-white/20">
+  <h4 class="font-semibold mb-3">Rrjetet Sociale</h4>
+  <div class="space-y-2 text-blue-100">
             <!-- Shto këtë link në <head> për ikonat -->
 <link
   rel="stylesheet"
